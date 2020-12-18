@@ -1,0 +1,234 @@
+.artnam {
+	font-size: 30px;
+	
+ background: linear-gradient(80deg, #BC1267 , #32CD32 , #FF8C00 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  
+  border: 3px solid transparent;
+  border-image: linear-gradient(80deg, #BC1267 , #32CD32 , #FF8C00 );
+  border-image-slice: 1;
+  padding: 20px;
+ 
+  
+ 
+
+}
+
+
+/* делаем grid */
+/*body { 
+	display: grid;
+	grid-template-areas:
+	"name name name name"
+	"albums albums albums albums"
+	"albna albna albna albna";
+	grid-template-rows: 120px 180px 30px;
+	grid-template-columns: 25% 25% 25% 25%; 	
+	grid-column-gap: 5px;
+	row-gap: 70px; 
+    height: 100vh;
+ 
+ justify-items: center;
+ 
+}
+
+
+ исполнитель grid
+#name {
+	grid-area: name;
+	
+}
+
+/* обложка grid
+#cover {
+grid-area: albums;	
+
+
+}
+#albname {
+	grid-area: albna;
+}
+
+/* обложка стиль 
+.alb {
+	font-size: 20px;
+	
+	
+}
+
+	
+
+
+/* текст под обложкой 
+.desc {
+	max-width:140px;
+	text-align: center;
+	text-decoration: none;
+
+	
+}
+.desc:hover {
+	text-decoration: underline;
+	
+
+} /*
+
+/* цвета текста под обложкой*/
+
+.setka {
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 290px 300px 80px 100px;
+	row-gap: 20px;
+	
+}
+
+.artnam {
+	grid-column:1/5;
+	margin-top: 80px;
+	justify-self: center;
+    max-height: 30px;    /* работает но надо получше написать*/
+}
+
+/* надо сделать класс для ссылки а */
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+.grpurp {
+background: linear-gradient(45deg, #C71585 33%, #C71585 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+  
+  }
+  .grad {
+ background: linear-gradient(45deg, #31D84D 33%, #31D84D 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yell {
+color: #FF8C00;
+text-decoration:  none;
+
+}
+
+
+.desc {
+	
+justify-self:center;
+	
+	
+}
+:root{ 
+--transitionn: 40px;
+}
+
+
+
+	
+.purp {
+color: purple;
+text-decoration: none;
+}
+
+
+	
+
+/*imag/vsworld.jpg lilcoverpl imag/perluv.png lilcovervw */
+
+
+  .cover{
+  
+    width: 140px; /* Ширина рисунка */
+    height: 140px; 
+
+	
+	
+   }
+   .desc:hover {
+	   transition-duration: .3s ;
+	transform: scale(1.1);
+   }
+    .cover:hover .name {
+	   transition-duration: .3s ;
+	transform: scale(1.1);
+   }
+     .name{
+	padding-top: 10px;
+	text-align: center;
+	max-width: 140px;
+	
+	 }
+	 .name:hover {
+		 
+		 font-weight: bolder;
+	 }
+
+   
+  
+  
+  .lilcoveret {
+	   background: url(pod/imag/eternal.jpg);
+   }
+   .lilcoveret:hover {
+	   background: url(pod/imag/bluret.png);
+   }
+   
+   .lilcoverlr {
+	   background: url(pod/imag/rage2.png);
+   }
+   .lilcoverlr:hover {
+	   background: url(pod/imag/blurrage.jpg);
+	   
+	   
+   }
+   .lilcoverpl {
+       background: url(pod/imag/perluv.png)
+   }	   
+   .lilcoverpl:hover {
+       background: url(pod/imag/blurluv.jpg)
+   }	   
+   
+   .lilcovervw {
+	   background: url(pod/imag/vsworld.jpg)
+   }
+    .lilcovervw:hover {
+	   background: url(pod/imag/blurvs.jpg)
+   }
+   
+   
+   /*most popular songs style*/
+   li {
+	   margin: 5px;
+	   padding-left: 10px;
+   }
+   
+.top10 {
+	
+	grid-column: 1/5;
+	justify-self: start; 
+	font-weight: bolder;
+	font-size: 28px;
+	padding-left: 10%;
+}
+   
+   .spisok {
+	   font-style: italic;
+   }
+   
+  </style>
+ </head>
+
+
